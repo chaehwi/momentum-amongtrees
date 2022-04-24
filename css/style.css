@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:95%;
+    object-fit: cover;
+    }
+
+
+#weather {
+    position: absolute;
+    color: aliceblue;
+    font-weight: 500;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+#weather div:first-child {
+    font-size: 25px;
+}
+
+#clock-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+#clock {
+    font-size: 100px;
+    margin-top: 200px;
+}
+
+#submit-hidden {
+    display: none;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#quote {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+    margin-top: 300px;
+    font-size: 15px;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 50px;
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
+
+
+ul {
+    color: aliceblue;
+
+    text-shadow: -1px 0 grey, 0 1px grey, 1px 0 grey, 0 -1px grey;
+}
